@@ -1,13 +1,4 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: #333;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  }
+
   
   .buttons {
     margin-top: 50px;
@@ -119,4 +110,38 @@
     .blob-btn:hover .blob-btn__blob {
       transform: translateZ(0) scale(1.4);
     }
+  }
+
+  h2 {
+    text-align: center;
+    color:white;
+    padding: 20px 0;
+  }
+  
+  .table-bordered {
+    border: 1px solid #ddd !important;
+    color:white;
+  }
+
+  .table-bordered:hover {
+    border: 1px solid #ddd !important;
+    color:black;
+  }
+
+  table caption {
+    padding: .5em 0;
+    color:white;
+  }
+  
+  @media screen and (max-width: 767px) {
+    table caption {
+      display: none;
+    }
+  }
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    color:white;
+    font-size: 14px;
   }
